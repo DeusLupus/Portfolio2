@@ -1,26 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--<style type="text/css">
+		html {width: 960px;}
+		body {height: 100%}
+		nav {float: right;}
+		.wrapper {width: 650px;
+				min-height: 100%;
+				margin: 0 auto -155px}
+		h1 {float: left;}
+		footer {text-align: center;}
+		img {width: 30%; float: left;}
+		.clearfix:after {content: " "; /* Older browser do not support empty content */
+   					visibility: hidden;
+   					display: block;
+   					height: 0;
+   					clear: both;}
+   		.sidebar {
+   			width: 270px;
+   			float: left;
+   			text-align: center;
+   		}
+   		#git {
+   			width: 33.3%; float: left;
+   		}
+   		#in {
+   			width: 33.3%; float: left;
+   		}
+   		#stack {
+   			width: 33.3%; float: left;
+   		}
+	</style>-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	
 	<title>
 		About Me
-		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	</title>
 </head>
 <body>
-	<h1>Deo Bissessar
-	<navbar>
+	<div class="wrapper">
+	<div class="heading">
+	<h1>Deo Bissessar</h1>
+	<nav>
 		<a href="index.html">About</a>
 		<a href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact Me</a>
-	</navbar>
-	</h1>
+		<a href="contact.html">Contact</a>
+	</nav>
+	</div>
 
-	<h1>
-		About Me
-	</h1>
-	<img src="../../basic-portfolio/assets/images/monopoly.jpg" alt="profile pic" width="400px" height="200px">
-	<p>
-		
-	</p>
+	<div class="main">
+	<h2>About Me</h2>
+		<div class="clearfix">
+		<img src="../../basic-portfolio/assets/images/monopoly.jpg" alt="monopoly" width="400px" height="200px">
+		<p>I am in my mid 30's, married, and have two wonderful boys who are my inspiration to get all I can from this Boot Camp and start making a better life for my family.</p><br>
+
+		<p>I used to love to play video games but can't remember what its like since my kids have hijacked my Xbox and between work and this Boot Camp can't seem to find 5 minutes to myself. Oh yea, I've got an xbox One as well that seems to be collecting a lot of dust.</p><br>
+
+		<p>That aside I'm ready to make coding part of my everyday life for the next six months and beyond so that I can finally be working doing something I love.</p><br>
+		</div>
+	</div>
+
+	<div class="sidebar">
+		<h3>Connect with Me</h3>
+		<img id="git" src="../../basic-portfolio/assets/images/github.png" alt="github">
+		<img id="in" src="../../basic-portfolio/assets/images/linkedin.png" alt="linkedin">
+		<img id="stack" src="../../basic-portfolio/assets/images/stackoverflow.png" alt="stackoverflow">
+	</div>
+	</div>
+
+	<div>
+		<footer>
+			&copy;Copyright 2016 Deo Bissessar
+		</footer>
+	</div>
+
 </body>
 </html>
