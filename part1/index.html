@@ -1,56 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--<style type="text/css">
-		html {width: 960px;}
-		body {height: 100%}
-		nav {float: right;}
-		.wrapper {width: 650px;
-				min-height: 100%;
-				margin: 0 auto -155px}
-		h1 {float: left;}
-		footer {text-align: center;}
-		img {width: 30%; float: left;}
-		.clearfix:after {content: " "; /* Older browser do not support empty content */
-   					visibility: hidden;
-   					display: block;
-   					height: 0;
-   					clear: both;}
-   		.sidebar {
-   			width: 270px;
-   			float: left;
-   			text-align: center;
-   		}
-   		#git {
-   			width: 33.3%; float: left;
-   		}
-   		#in {
-   			width: 33.3%; float: left;
-   		}
-   		#stack {
-   			width: 33.3%; float: left;
-   		}
-	</style>-->
+	<link rel="stylesheet" type="text/css" href="reset.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!--link to theme from Bootswatch-->
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<!-- self written stylesheet-->
+	<link rel="stylesheet" type="text/css" href="style.css">
 	
 	<title>
 		About Me
 	</title>
 </head>
-<body>
-	<div class="wrapper">
-	<div class="heading">
-	<h1>Deo Bissessar</h1>
-	<nav>
-		<a href="index.html">About</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact</a>
-	</nav>
-	</div>
 
-	<div class="main">
+<body>
+	<nav class="navbar navbar-inverse">
+ 		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="#">Deo Bissessar</a>
+    		</div>
+    		<ul class="nav navbar-nav navbar-right">
+        		<li><a href="index.html">About Me</a></li>
+        		<li><a href="portfolio.html">Portfolio</a></li>
+        		<li><a href="contact.html">Contact</a></li>
+      		</ul>
+    	</div>
+    </nav>
+
+    <div class="wrapper">
+    <div class="Jumbotron">
 	<h2>About Me</h2>
 		<div class="clearfix">
 		<img src="../../basic-portfolio/assets/images/monopoly.jpg" alt="monopoly" width="400px" height="200px">
@@ -61,7 +40,7 @@
 		<p>That aside I'm ready to make coding part of my everyday life for the next six months and beyond so that I can finally be working doing something I love.</p><br>
 		</div>
 	</div>
-
+		
 	<div class="sidebar">
 		<h3>Connect with Me</h3>
 		<img id="git" src="../../basic-portfolio/assets/images/github.png" alt="github">
@@ -72,7 +51,8 @@
 
 	<div>
 		<footer>
-			&copy;Copyright 2016 Deo Bissessar
+			&copy;Copyright 2016 Deo Bissessar<br>
+			Built with Bootstrap
 		</footer>
 	</div>
 
